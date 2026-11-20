@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import "./styles/global.css";
+
+
+@theme {
+  --color-obsidian-950: #07080a;
+  --color-obsidian-900: #0c0d12;
+  --color-obsidian-850: #111217;
+  --color-obsidian-800: #171922;
+  --color-obsidian-700: #23252e;
+  --color-crimson: #ff1e27;
+  --color-crimson-dark: #d90f17;
+  --color-crimson-deep: #9b080e;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-outfit: "Outfit", sans-serif;
+  --font-bebas: "Bebas Neue", sans-serif;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
