@@ -10,17 +10,20 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
-    Dumbbell,
-    Target,
-    Trophy,
+
     HeartPulse,
-    Users,
-    Apple,
+
     MapPin,
     Phone,
     Mail,
     Globe,
     Send,
+    ClipboardList,
+    ShieldCheck,
+    Footprints,
+    Activity,
+    Accessibility,
+    UserRoundCheck,
 } from "lucide-react";
 
 import Image from "./brandassests/Modern Industrial Gym with Orange Accents.png";
@@ -37,70 +40,70 @@ function KinesisCare() {
 
     const features = [
         {
-            icon: Dumbbell,
-            title: "Modern Training Facilities",
-            desc: "Train with quality equipment in a premium fitness environment.",
+            icon: ClipboardList,
+            title: "Personalized Physiotherapy & Rehabilitation Plans",
+            desc: "Customized recovery programs tailored to injury conditions, pain management, mobility improvement, and individual rehabilitation goals.",
         },
         {
-            icon: Target,
-            title: "Personalised Fitness Goals",
-            desc: "Stay focused with training that supports your fitness journey.",
+            icon: ShieldCheck,
+            title: "Guided Physiotherapy & Safe Rehabilitation",
+            desc: "Controlled therapeutic exercises and progressive mobility training designed to support injury recovery, restore movement, and improve physical strength safely.",
         },
         {
-            icon: Trophy,
-            title: "Results-Driven Approach",
-            desc: "Build strength, confidence and consistency with every workout.",
+            icon: Footprints,
+            title: "Functional Movement & Injury Prevention",
+            desc: "Physiotherapy programs focused on improving mobility, building functional strength, preventing recurring injuries, and supporting long-term physical wellness.",
         },
     ];
 
     const services = [
         {
             number: "01",
-            title: "Personal Training",
-            subtitle: "TRAIN WITH PURPOSE",
+            title: "Sports Injury Rehabilitation",
+            subtitle: "Sports Recovery",
             description:
-                "Get personalised workout plans designed around your fitness goals, fitness level and lifestyle.",
+                "Recover Stronger | Professional sports physiotherapy and injury recovery programs designed to treat muscle strains, ligament sprains, joint injuries, and restore strength and mobility.",
             details:
-                "Our training approach helps you build strength, improve performance and stay consistent.",
+                "Professional sports injury rehabilitation and physiotherapy services focused on pain relief, muscle recovery, strength building, and restoring mobility.",
             image:
                 "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=1200&q=90",
-            icon: Dumbbell,
+            icon: Activity,
         },
         {
             number: "02",
-            title: "Group Fitness",
-            subtitle: "ENERGY. MOTIVATION. RESULTS.",
+            title: "Post-Surgical Rehabilitation & Mobility Recovery",
+            subtitle: "Mobility Recovery",
             description:
-                "Experience the power of training together through engaging and energetic group workout sessions.",
+                "Restore Movement | Structured physiotherapy and mobility exercises designed to improve flexibility, rebuild muscle strength, and restore functional movement after surgery or injury.",
             details:
-                "Stay motivated, challenge yourself and enjoy every step of your fitness journey.",
+                "Post-surgery and post-injury physiotherapy focused on restoring flexibility, improving mobility, rebuilding muscle strength, and regaining functional movement.",
             image:
                 "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1200&q=90",
-            icon: Users,
+            icon: Accessibility,
         },
         {
             number: "03",
-            title: "Physiotherapy",
-            subtitle: "RECOVER STRONGER",
+            title: "Pain Management & Posture Correction",
+            subtitle: "Pain Relief",
             description:
-                "Support your recovery with personalised physiotherapy and movement-focused care.",
+                "Move Without Pain | Professional physiotherapy and posture correction treatments designed to relieve neck pain, back pain, shoulder discomfort, joint pain, and improve body alignment and mobility.",
             details:
-                "Work towards better mobility, improved movement and a confident return to activity.",
+                "Targeted physiotherapy and posture correction treatments to relieve back pain, neck pain, shoulder stiffness, and joint discomfort while improving mobility.",
             image:
                 "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1200&q=90",
             icon: HeartPulse,
         },
         {
             number: "04",
-            title: "Nutrition Guidance",
-            subtitle: "FUEL YOUR POTENTIAL",
+            title: "Personalized One-on-One Physiotherapy",
+            subtitle: "Personal Care",
             description:
-                "Build healthier eating habits with nutrition guidance that complements your workout routine.",
+                "Individualized Recovery Care | Dedicated physiotherapy and rehabilitation sessions tailored to individual recovery needs, treatment goals, mobility levels, and physical progress.",
             details:
-                "Make informed food choices and create a balanced approach to your fitness goals.",
+                "One-on-one physiotherapy and rehabilitation sessions tailored to individual recovery goals, injury conditions, and mobility improvement.",
             image:
                 "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1200&q=90",
-            icon: Apple,
+            icon: UserRoundCheck,
         },
     ];
 
@@ -155,20 +158,19 @@ function KinesisCare() {
                     <div className="ml-0 mt-8 w-full max-w-xl sm:ml-4 sm:mt-12 lg:ml-8 lg:mt-0">
 
                         <h1 className="font-philosopher text-5xl font-bold leading-[0.95] tracking-tight text-white sm:text-6xl md:text-7xl lg:text-7xl">
-                            MOVE BETTER.
+                            ADVANCED
 
-                            <span className="mt-2 block font-philosopher text-6xl text-[#00B7C5] sm:text-7xl lg:text-8xl">
-                                LIVE
+                            <span className="mt-2 block font-philosopher text-6xl text-[#00B7C5] sm:text-7xl lg:text-7xl">
+                                PHYSIOTHERAPY
                             </span>
 
-                            <span className="block font-philosopher text-6xl text-white sm:text-7xl lg:text-8xl">
-                                STRONGER.
+                            <span className="block font-philosopher text-6xl text-white sm:text-7xl lg:text-4xl tracking-wide ">
+                                EFFECTIVE  PAIN RELIEF
                             </span>
                         </h1>
 
                         <p className="mt-5 max-w-md font-poppins text-sm leading-relaxed text-gray-300 sm:text-base">
-                            A premium wellness experience designed for
-                            movement, strength and long-term wellbeing.
+                            Professional physiotherapy and rehabilitation services focused on pain management, injury recovery, mobility improvement, muscle strengthening, and restoring functional movement.
                         </p>
 
                         <Link
@@ -348,7 +350,7 @@ function KinesisCare() {
                     <div className="flex flex-col justify-center">
 
                         <p className="font-poppins text-xs uppercase tracking-[3px] text-[#00B7C5]">
-                            About Kinesis Care
+                            About Kinesis - Physio Rehab
                         </p>
 
                         <h2 className="mt-5 font-philosopher text-3xl leading-tight sm:mt-6 sm:text-5xl lg:text-6xl">
@@ -359,11 +361,8 @@ function KinesisCare() {
                         </h2>
 
                         <p className="mt-5 font-poppins text-sm leading-7 text-gray-400 sm:mt-6 sm:text-base sm:leading-8">
-                            At Kinesis Care, we believe wellness is more than
-                            just a routine. It is a journey built on movement,
-                            strength, consistency and care. We provide a
-                            motivating environment where every individual can
-                            work towards a healthier lifestyle.
+
+                            Kinesis offers professional physiotherapy and physical rehabilitation programs designed for injury recovery, pain management, joint stiffness relief, mobility improvement, and functional movement restoration through structured therapy and progressive rehabilitation exercises.
                         </p>
 
                         {/* Features */}

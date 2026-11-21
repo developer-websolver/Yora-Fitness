@@ -15,17 +15,25 @@ import {
     Target,
     Trophy,
     HeartPulse,
-    Users,
-    Apple,
+    
     MapPin,
     Phone,
     Mail,
     Globe,
     Send,
+    Utensils,
+    Scale,
+    
+    CalendarCheck,
 } from "lucide-react";
 
-import Image from "./brandassests/Modern Industrial Gym with Orange Accents.png";
+import Image from "./brandassests/qualesteebackground.jpg";
 import Logo from "./brandassests/Qualeatee-02.png";
+import Image1 from "./brandassests/service1img1.jpg";
+import Image2 from "./brandassests/service1img2.jpg";
+import Image3 from "./brandassests/service1img3.jpg";
+import Image4 from "./brandassests/service1img4.jpg";
+import AboutImage from "./brandassests/whyQualeatee.jpg";
 
 function Qualeatee() {
     // Statistics
@@ -55,19 +63,19 @@ function Qualeatee() {
     // About features
     const features = [
         {
-            icon: Dumbbell,
-            title: "Modern Training Facilities",
-            desc: "Train with quality equipment in a premium fitness environment.",
+            icon: Utensils,
+            title: "Personalized Diet & Meal Planning",
+            desc: "Customized nutrition plans and healthy meal guidance tailored to individual lifestyles, food preferences, dietary needs, and weight management goals.",
         },
         {
             icon: Target,
-            title: "Personalised Fitness Goals",
-            desc: "Stay focused with training that supports your fitness journey.",
+            title: "Sustainable Nutrition & Healthy Eating Habits",
+            desc: "Practical diet plans and balanced nutrition guidance designed to support long-term wellness, healthy weight management, and lasting lifestyle changes without crash diets.",
         },
         {
             icon: Trophy,
-            title: "Results-Driven Approach",
-            desc: "Build strength, confidence and consistency with every workout.",
+            title: "Ongoing Nutrition Monitoring & Diet Plan Adjustments",
+            desc: "Regular nutrition assessments and personalized diet plan updates based on your health progress, changing fitness goals, and lifestyle needs.",
         },
     ];
 
@@ -75,51 +83,51 @@ function Qualeatee() {
     const services = [
         {
             number: "01",
-            title: "Personal Training",
-            subtitle: "TRAIN WITH PURPOSE",
+            title: "Weight Loss & Weight Gain Nutrition Plans",
+            subtitle: "Weight Management",
             description:
-                "Get personalised workout plans designed around your fitness goals, fitness level and lifestyle.",
+                "Healthy Weight Management | Personalized diet plans and balanced nutrition programs designed to support sustainable fat loss, healthy weight gain, and long-term weight management.",
             details:
-                "Our training approach helps you build strength, improve performance and stay consistent.",
+                "Our Personalized weight loss and weight gain diet plans focused on balanced nutrition, healthy fat loss, and sustainable results.training approach helps you build strength, improve performance and stay consistent.",
             image:
-                "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=1200&q=90",
-            icon: Dumbbell,
+                Image1,
+            icon: Scale,
         },
         {
             number: "02",
-            title: "Group Fitness",
-            subtitle: "ENERGY. MOTIVATION. RESULTS.",
+            title: "Lifestyle Nutrition & Wellness Plans",
+            subtitle: "Daily Wellness",
             description:
-                "Experience the power of training together through engaging and energetic group workout sessions.",
+                "Healthy Living Every Day | Personalized nutrition plans and balanced meal guidance designed to improve daily energy, support overall wellness, and promote healthy eating habits for busy lifestyles.",
             details:
-                "Stay motivated, challenge yourself and enjoy every step of your fitness journey.",
+                "Personalized nutrition plans and balanced meal guidance to support healthy eating, boost daily energy, and improve overall wellness.",
             image:
-                "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1200&q=90",
-            icon: Users,
-        },
-        {
-            number: "03",
-            title: "Physiotherapy",
-            subtitle: "RECOVER STRONGER",
-            description:
-                "Support your recovery with personalised physiotherapy and movement-focused care.",
-            details:
-                "Work towards better mobility, improved movement and a confident return to activity.",
-            image:
-                "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1200&q=90",
+                Image2,
             icon: HeartPulse,
         },
         {
-            number: "04",
-            title: "Nutrition Guidance",
-            subtitle: "FUEL YOUR POTENTIAL",
+            number: "03",
+            title: "Sports Nutrition & Fitness Diet Plans",
+            subtitle: "Sports Nutrition",
             description:
-                "Build healthier eating habits with nutrition guidance that complements your workout routine.",
+                "Fuel Your Performance | Personalized fitness nutrition plans designed to support muscle building, strength training, endurance, workout performance, and post-workout recovery.",
             details:
-                "Make informed food choices and create a balanced approach to your fitness goals.",
+                "Personalized fitness diet plans to support muscle growth, strength training, workout performance, endurance, and faster recovery.",
             image:
-                "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1200&q=90",
-            icon: Apple,
+                Image3,
+            icon: Dumbbell,
+        },
+        {
+            number: "04",
+            title: "Nutrition Follow-Up & Healthy Habit Coaching",
+            subtitle: "Habit Coaching",
+            description:
+                "Build Lasting Habits | Personalized diet monitoring, regular nutrition assessments, meal plan adjustments, and healthy eating habit coaching to support consistent progress and long-term wellness",
+            details:
+                "Regular nutrition check-ins, personalized diet adjustments, and healthy eating guidance to maintain consistency and achieve long-term wellness goals.",
+            image:
+                Image4,
+            icon: CalendarCheck,
         },
     ];
 
@@ -179,21 +187,20 @@ function Qualeatee() {
 
                         {/* Heading */}
                         <h1 className="font-biondi text-5xl font-extrabold italic leading-[0.95] tracking-tight text-white sm:text-6xl md:text-7xl lg:text-7xl">
-                            MOVE BETTER.
+                            HEALTHY
 
                             <span className="mt-2 block font-biondi text-6xl text-[#ff6500] sm:text-7xl lg:text-8xl">
-                                LIVE
+                                LIFESTYLE
                             </span>
 
-                            <span className="block font-biondi text-6xl text-[#ff6500] sm:text-7xl lg:text-8xl">
-                                STRONGER.
+                            <span className="block font-biondi text-6xl text-[#ff6500] sm:text-7xl lg:text-5xl">
+                                PERSONALIZED NUTRITION PLANS
                             </span>
                         </h1>
 
                         {/* Description */}
                         <p className="mt-5 max-w-md font-aquawax text-sm leading-relaxed text-gray-300 sm:text-base">
-                            A premium fitness experience designed
-                            for strength, energy and long-term wellness.
+                            Personalized diet plans and professional nutrition guidance designed to support healthy eating, weight management, fitness goals, and balanced lifestyle habits.
                         </p>
 
                         {/* CTA Button */}
@@ -387,7 +394,7 @@ function Qualeatee() {
                         <div className="relative h-[300px] overflow-hidden rounded-2xl sm:h-[450px] lg:h-[620px]">
 
                             <img
-                                src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=90"
+                                src={AboutImage}
                                 alt="Premium gym interior"
                                 className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                             />
@@ -429,24 +436,20 @@ function Qualeatee() {
                     <div className="flex flex-col justify-center">
 
                         <p className="font-aquawax text-xs uppercase tracking-[3px] text-[#ff6500]">
-                            About YORA Fitness
+                            About Qualeatee - Diet Clinic
                         </p>
 
                         {/* Heading */}
                         <h2 className="mt-5 font-biondi text-3xl uppercase leading-tight sm:mt-6 sm:text-5xl lg:text-6xl">
                             Why Choose
                             <span className="block text-[#ff6500]">
-                                YORA Fitness?
+                                Qualeatee ?
                             </span>
                         </h2>
 
                         {/* Description */}
                         <p className="mt-5 font-aquawax text-sm leading-7 text-gray-400 sm:mt-6 sm:text-base sm:leading-8">
-                            At YORA Fitness, we believe fitness is more than just
-                            a workout. It's a lifestyle built on strength,
-                            discipline and consistency. We provide a motivating
-                            environment where every individual can challenge
-                            their limits and move towards a healthier lifestyle.
+                            A professional diet and nutrition clinic focused on sustainable weight management, balanced meal planning, and healthy eating habits. Offering personalized nutrition guidance to support long-term wellness, fitness goals, and a healthier lifestyle without extreme diet restrictions.
                         </p>
 
                         {/* Features */}

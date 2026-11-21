@@ -11,20 +11,29 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
     Dumbbell,
-    Target,
-    Trophy,
-    HeartPulse,
+
+   
+
     Users,
-    Apple,
+   
     MapPin,
     Phone,
     Mail,
     Globe,
     Send,
+    Truck,
+    LayoutGrid,
+    Ruler,
+    Wrench,
 } from "lucide-react";
 
-import Image from "./brandassests/Modern Industrial Gym with Orange Accents.png";
+import Image from "./brandassests/cardio-hero-background.jpg";
 import Logo from "./brandassests/cardio_tight.png";
+import Image1 from "./brandassests/cardioservice1.jpg";
+import Image2 from "./brandassests/cardioservice2.jpg";
+import Image3 from "./brandassests/cardioservice3.jpg";
+import Image4 from "./brandassests/cardioservice4.jpg";
+import AboutImg from "./brandassests/cardiobackground.jpg";
 
 function Cardio() {
     // Statistics
@@ -39,18 +48,18 @@ function Cardio() {
     const features = [
         {
             icon: Dumbbell,
-            title: "Modern Training Facilities",
-            desc: "Train with quality equipment in a premium fitness environment.",
+            title: "Commercial Gym Equipment Quality:",
+            desc: "Heavy-duty construction and smooth-motion engineering designed for durability and consistent performance in high-traffic fitness centers and professional gyms.",
         },
         {
-            icon: Target,
-            title: "Personalised Fitness Goals",
-            desc: "Stay focused with training that supports your fitness journey.",
+            icon: Truck,
+            title: "Complete Gym Equipment Setup & Support",
+            desc: "Expert guidance in gym equipment selection, professional delivery, installation, and reliable after-sales service for commercial gyms, fitness centers, and training studios.",
         },
         {
-            icon: Trophy,
-            title: "Results-Driven Approach",
-            desc: "Build strength, confidence and consistency with every workout.",
+            icon: LayoutGrid,
+            title: "Custom Gym Equipment Solutions",
+            desc: "Specially tailored fitness equipment solutions for commercial gyms, boutique fitness studios, and home gyms to maximize space, functionality, and workout efficiency.",
         },
     ];
 
@@ -58,51 +67,51 @@ function Cardio() {
     const services = [
         {
             number: "01",
-            title: "Personal Training",
-            subtitle: "TRAIN WITH PURPOSE",
+            title: "Commercial Gym Equipment",
+            subtitle: "Commercial Performance",
             description:
-                "Get personalised workout plans designed around your fitness goals, fitness level and lifestyle.",
+                "Engineered for Maximum Performance | Premium commercial cardio machines and fitness equipment designed for high-traffic gyms, professional fitness centers, health clubs, and workout facilities.",
             details:
-                "Our training approach helps you build strength, improve performance and stay consistent.",
+                "Premium commercial gym equipment and advanced cardio machines engineered for durability, performance, and professional fitness centers, gyms, and training studios.",
             image:
-                "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=1200&q=90",
+                Image1,
             icon: Dumbbell,
         },
         {
             number: "02",
-            title: "Group Fitness",
-            subtitle: "ENERGY. MOTIVATION. RESULTS.",
+            title: "Home & Studio Gym Equipment",
+            subtitle: "Home Fitness",
             description:
-                "Experience the power of training together through engaging and energetic group workout sessions.",
+                "Professional Fitness at Home | Premium home gym machines and compact fitness equipment designed for residential gyms, personal training studios, and boutique fitness spaces.",
             details:
-                "Stay motivated, challenge yourself and enjoy every step of your fitness journey.",
+                "Premium home gym equipment and compact fitness machines designed for efficient workouts in home gyms, personal training studios, and boutique fitness spaces.",
             image:
-                "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1200&q=90",
+                Image2,
             icon: Users,
         },
         {
             number: "03",
-            title: "Physiotherapy",
-            subtitle: "RECOVER STRONGER",
+            title: "Gym Equipment Consultation & Layout Planning",
+            subtitle: "Smart Planning",
             description:
-                "Support your recovery with personalised physiotherapy and movement-focused care.",
+                "Smart Space Planning | Expert gym equipment selection and customized fitness center layout solutions based on available space, budget, and workout requirements.",
             details:
-                "Work towards better mobility, improved movement and a confident return to activity.",
+                "Expert gym equipment consultation and fitness center layout planning tailored to your space, budget, and training requirements for efficient gym setup.",
             image:
-                "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1200&q=90",
-            icon: HeartPulse,
+                Image3,
+            icon: Ruler,
         },
         {
             number: "04",
-            title: "Nutrition Guidance",
-            subtitle: "FUEL YOUR POTENTIAL",
+            title: "Gym Equipment Maintenance & After-Sales Service",
+            subtitle: "Reliable Maintenance",
             description:
-                "Build healthier eating habits with nutrition guidance that complements your workout routine.",
+                "Reliable Equipment Care | Professional gym machine maintenance, scheduled servicing, and after-sales support to ensure long-lasting performance and minimal equipment downtime.",
             details:
-                "Make informed food choices and create a balanced approach to your fitness goals.",
+                "Professional gym equipment servicing, routine maintenance, and reliable after-sales support to ensure machine durability, performance, and minimal downtime.",
             image:
-                "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1200&q=90",
-            icon: Apple,
+                Image4,
+            icon: Wrench,
         },
     ];
 
@@ -158,21 +167,19 @@ function Cardio() {
 
                     <div className="ml-0 mt-8 w-full max-w-xl sm:ml-4 sm:mt-12 lg:ml-8 lg:mt-0">
 
-                        <h1 className="font-bank text-5xl font-extrabold leading-[0.95] tracking-tight text-white sm:text-6xl md:text-7xl lg:text-7xl">
-                            MOVE BETTER.
-
-                            <span className="mt-2 block font-bank text-6xl text-[#008CFF] sm:text-7xl lg:text-8xl">
-                                LIVE
+                        <h1 className="font-bank text-5xl font-extrabold leading-[0.95] tracking-tight text-white sm:text-6xl md:text-7xl lg:text-6xl">
+                            BUILT FOR HIGH
+                            <span className="mt-2 block  text-6xl text-[#008CFF] sm:text-7xl lg:text-7xl">
+                                PERFORMANCE
                             </span>
 
-                            <span className="block font-bank text-6xl text-[#00D5FF] sm:text-7xl lg:text-8xl">
-                                STRONGER.
+                            <span className="block font-bank text-6xl text-[#00D5FF] sm:text-7xl lg:text-4xl">
+                                ENGINEERED FOR DURABILITY
                             </span>
                         </h1>
 
                         <p className="mt-5 max-w-md font-poppins text-sm leading-relaxed text-gray-300 sm:text-base">
-                            A premium fitness experience designed
-                            for strength, energy and long-term wellness.
+                            Premium Commercial Gym Equipment Designed for Fitness Centers, Professional Studios, and Home Gyms.
                         </p>
 
                         <Link
@@ -317,7 +324,7 @@ function Cardio() {
 
                         <div className="relative h-[300px] overflow-hidden rounded-2xl sm:h-[450px] lg:h-[620px]">
                             <img
-                                src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=90"
+                                src={AboutImg}
                                 alt="Premium gym interior"
                                 className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                             />
@@ -353,7 +360,7 @@ function Cardio() {
                     <div className="flex flex-col justify-center">
 
                         <p className="font-poppins text-xs uppercase tracking-[3px] text-[#00D5FF]">
-                            About Cardio City
+                            About Cardio City - High-Premium Gym Instrument
                         </p>
 
                         <h2 className="mt-5 font-bank text-3xl uppercase leading-tight sm:mt-6 sm:text-5xl lg:text-6xl">
@@ -364,11 +371,7 @@ function Cardio() {
                         </h2>
 
                         <p className="mt-5 font-poppins text-sm leading-7 text-gray-400 sm:mt-6 sm:text-base sm:leading-8">
-                            At Cardio City, we believe fitness is more than just
-                            a workout. It's a lifestyle built on strength,
-                            discipline and consistency. We provide a motivating
-                            environment where every individual can challenge
-                            their limits and move towards a healthier lifestyle.
+                            YoraFit Cardio Equipment features premium commercial gym machines engineered for heavy-duty performance, smooth biomechanics, and long-lasting durability, making them ideal for fitness centers, professional studios, and home gyms.
                         </p>
 
                         {/* Features */}

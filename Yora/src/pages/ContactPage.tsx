@@ -93,11 +93,22 @@ export function ContactPage() {
               </div>
               <div>
                 <FieldLabel>Inquiry Type</FieldLabel>
-                <SelectInput defaultValue="membership">
-                  <option value="membership">General Membership / Trial Pass</option>
-                  <option value="franchise">Franchise Partnership</option>
-                  <option value="corporate">Corporate Wellness Program</option>
-                  <option value="careers">Careers & Trainer Recruitment</option>
+                <SelectInput
+                  defaultValue="membership"
+                  className="bg-black text-white border border-gray-600 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-orange-500"
+                >
+                  <option value="membership" className="bg-black text-white">
+                    General Membership / Trial Pass
+                  </option>
+                  <option value="franchise" className="bg-black text-white">
+                    Franchise Partnership
+                  </option>
+                  <option value="corporate" className="bg-black text-white">
+                    Corporate Wellness Program
+                  </option>
+                  <option value="careers" className="bg-black text-white">
+                    Careers & Trainer Recruitment
+                  </option>
                 </SelectInput>
               </div>
             </div>

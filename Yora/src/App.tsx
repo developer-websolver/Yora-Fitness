@@ -9,11 +9,13 @@ import { FranchisePage } from "./pages/FranchisePage";
 import Qualeatee from "./components/brands/qualeatee";
 import Cardio from "./components/brands/cardio";
 import KinesisCare from "./components/brands/kinesis";
+import ScrollToTop from "./components/scrollbehaviour";
 
 export default function App() {
   return (
     <UiProvider>
       <BrowserRouter>
+      <ScrollToTop />
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<HomePage />} />
