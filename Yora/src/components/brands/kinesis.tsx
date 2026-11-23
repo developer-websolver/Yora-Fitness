@@ -26,8 +26,14 @@ import {
     UserRoundCheck,
 } from "lucide-react";
 
-import Image from "./brandassests/Modern Industrial Gym with Orange Accents.png";
+import Image from "./brandassests/Modern Industrial Gym with Teal Accents.png";
 import Logo from "./brandassests/Kinesis-Care.png";
+import AboutusImg from "./brandassests/whyKinesisCare.jpg";
+import Image1 from "./brandassests/kinesisservice1.jpg";
+import Image2 from "./brandassests/kinesisservice2.jpg";
+import Image3 from "./brandassests/kinesisservice3.jpg";
+import Image4 from "./brandassests/kinesisservice4.jpg";
+
 
 function KinesisCare() {
 
@@ -66,7 +72,7 @@ function KinesisCare() {
             details:
                 "Professional sports injury rehabilitation and physiotherapy services focused on pain relief, muscle recovery, strength building, and restoring mobility.",
             image:
-                "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=1200&q=90",
+                Image1,
             icon: Activity,
         },
         {
@@ -77,8 +83,7 @@ function KinesisCare() {
                 "Restore Movement | Structured physiotherapy and mobility exercises designed to improve flexibility, rebuild muscle strength, and restore functional movement after surgery or injury.",
             details:
                 "Post-surgery and post-injury physiotherapy focused on restoring flexibility, improving mobility, rebuilding muscle strength, and regaining functional movement.",
-            image:
-                "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1200&q=90",
+            image:Image2,
             icon: Accessibility,
         },
         {
@@ -90,7 +95,7 @@ function KinesisCare() {
             details:
                 "Targeted physiotherapy and posture correction treatments to relieve back pain, neck pain, shoulder stiffness, and joint discomfort while improving mobility.",
             image:
-                "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1200&q=90",
+                Image3,
             icon: HeartPulse,
         },
         {
@@ -102,7 +107,7 @@ function KinesisCare() {
             details:
                 "One-on-one physiotherapy and rehabilitation sessions tailored to individual recovery goals, injury conditions, and mobility improvement.",
             image:
-                "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1200&q=90",
+                Image4,
             icon: UserRoundCheck,
         },
     ];
@@ -314,7 +319,7 @@ function KinesisCare() {
 
                         <div className="relative h-[300px] overflow-hidden rounded-2xl sm:h-[450px] lg:h-[620px]">
                             <img
-                                src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=90"
+                                src={AboutusImg}
                                 alt="Kinesis Care facility"
                                 className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                             />
